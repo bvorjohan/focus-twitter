@@ -3,11 +3,7 @@
     "description": "Twitter without the distractions",
     "version": "0.0.1",
     "manifest_version": 2,
-    "permissions": [],
-    "background": {
-      "scripts": ["background.js"],
-      "persistent": false
-    },
+    "permissions": [], 
     "content_scripts": [
       {
         "matches": ["https://twitter.com/*"],
